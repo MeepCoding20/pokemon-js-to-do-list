@@ -1,0 +1,157 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    display: flex;
+    justify-content : center;
+}
+
+.container {
+    display:block;
+    width: 426px;
+    height: 662px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #222224;
+    background: #F0F0F0;
+    overflow: hidden;
+
+}
+
+
+.top-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 426px;
+    height: 252.57px;
+    flex-shrink: 0;
+    border-radius: 10px 10px 0px 0px;
+    background: #EE1515;
+    overflow: hidden;
+    z-index: 1;
+}
+
+h2 {
+    color: #F0F0F0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.pokemon-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pokemon-image{
+    height: 160px;
+}
+
+.change-sprite { /* button */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 8px;
+    border-radius: 100px;
+    border: 0;
+    height: 56.6px;
+    width: 170px;
+    color: white;
+    background-color: #222224;
+}
+
+.change-sprite:hover{
+    background-color: #09090a;
+}
+
+
+.input-container {
+    display: flex;
+    border-bottom: 1px solid #22222450;
+}
+
+.inputbox {
+    width: 283px;
+    height: 48px;
+    flex-shrink: 0;
+    margin: 12px 14px 12px 9px;
+    padding-left: 14px;
+    text-align: left;
+    border: 0;
+}
+
+
+.addbutton {
+    display: flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    width: 90px;
+    height: 56px;
+    border: 0;
+    border-radius: 100px;
+    margin: 10px 7px 8px 0;
+    color: white;
+    background-color: #222224;
+}
+
+
+
+
+
+
+
+
+.list-wrapper {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    align-items: center;
+    display:flex;
+    border-bottom: 1px solid #22222450;
+    padding: 14px 24px;
+    flex-shrink: 0;
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    position: relative;
+    
+
+}
+
+li button {
+    background-color:#222224;
+    color: white;
+    top: 8px;
+    bottom: 8px;
+    border-radius: 28px;
+    padding: 10px 24px;
+    margin-left: auto;
+    margin-right: -7px;
+    height: 34px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    align-self: stretch;
+}
