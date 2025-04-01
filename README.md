@@ -10,6 +10,6 @@ fixing the container border issues**
 
 As of 17.02.25 the CSS has been completed for all elements
 
-##latest edits: [01.04.25]:
+## latest edits: [01.04.25]:
 1. tests with updating through local git repo on vscode
 2. updated README with png link of project: https://prnt.sc/0RXdmkjgZ6tQ
